@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 16px;
+    line-height: 1.6;
+    color: #273d46;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+input {
+    outline:none;
+}
+
+
+/* Containers */
+.container{
+    width: 100%;
+    padding-left: 175px;
+    margin: 0 auto;
+}
+
+.container_smaller{
+    width: 100%;
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+.container_last{
+    width: 100%;
+    max-width: 945px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header__logo{
+    width: 296px;
+    height: 129px;
+    background-color: #80b7b3;
+    margin: auto;
+    box-shadow: 0 15px 100px rgba(0,0,0,0.5);
+}
+
+.header__logo h1{
+    font-size: 69px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* Large section */
+.section_large{
+    padding-top: 180px;
+}
+
+.section__panel{
+    display: flex;
+    align-items: top;
+}
+
+.section__panel_text{
+    width: 550px;
+    height: 635px;
+}
+
+.section__panel_large_photo{
+    padding-left: 200px;
+    padding-top: 45px;
+}
+
+.section__panel_large_photo2{
+    position: relative;
+    bottom: 525px;
+    right: 150px;
+}
+
+
+/* Small section */
+.section_small .type_of_story{
+    text-align: center;
+}
+
+.section_small .title_of_story{
+    text-align: center;
+}
+
+.section__panel_small_photo{
+    padding-top: 55px;
+}
+
+.section_panel_small_text2{
+    width: 750px;
+    margin-left: 50px;
+}
+
+
+/* Type, title and text of story*/
+.type_of_story{
+    text-transform: uppercase;
+    color: #969da0;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+}
+
+.title_of_story{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 36px;
+    color: #273d46;
+} 
+
+.text_of_story{
+    margin-top: 55px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #687378;
+} 
+
+
+/* Video */
+.video{
+    padding-top: 110px;
+}
+
+
+/* Last section */
+.section__last{
+    padding-top: 130px;
+    padding-bottom: 150px;
+}
+
+.section__card_upPart{
+    display: flex;
+    justify-content: center;
+}
+
+.section__card_text{
+    margin-top: 50px;
+    margin-left: 55px;
+}
+
+.section__card_downPart{
+    z-index: 10;
+    width: 760px;
+    height: 345px;
+    background-color: #ffffff;
+    margin-top: -60px;
+    margin-left: 195px;
+}
+
+.section__card_downPart_text{
+    padding: 0px 100px;
+}
+
+.section__card_downPart .section__panel_button{
+    padding-left: 270px;
+}
+
+
+/* Footer */
+.footer{
+    width: 100%;
+    height: 860px;
+    background: url("../images/pic_5.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.footer__subscribe{
+    width: 670px;
+    height: 325px;
+    background-color: #273d46;
+    opacity: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer__subscribe p{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 40px 100px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.footer__subscribe__textFields{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__name{
+    width: 250px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    background-color: #000000;
+    opacity: 50%;
+    color: #ffffff;
+    margin-left: 70px;
+}
+
+.footer__email{
+    width: 250px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    background-color: #000000;
+    opacity: 50%;
+    color: #ffffff;
+    margin-right: 70px;
+}
+
+.footer__button{
+    margin-left: 240px;
+}
+
+
+/* Button */
+.section__button{
+    text-transform: uppercase;
+    background-color: #7fb8b2;
+    color: #ffffff;
+    border-radius: 40px;
+    width: 200px;
+    height: 45px;
+    font-family: 'Poppins', medium;
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.icon{
+    font-size: 24px;
+    margin-left: 10px;
+
+}
